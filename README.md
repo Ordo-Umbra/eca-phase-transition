@@ -29,5 +29,3 @@ Analysis extended to ternary (q=3, 2187 rules) and quaternary (q=4, 10k sample) 
 - Inverted correlation (λ vs variance = -0.006) compared to binary (+0.82)
 - Demonstrates how totalistic constraints bifurcate dynamics for q>2
 
-## Repository Contents├── paper/ │   └── eca_phase_transition.pdf    # Full paper with methods and analysis ├── code/ │   ├── binary_eca_analysis.py      # All 256 binary rules │   ├── ternary_totalistic.py       # All 2187 ternary rules │   └── quaternary_sample.py        # Q=4 sampling (10k rules) ├── data/ │   ├── binary_results.npz          # Complete binary ECA results │   ├── ternary_results.npz         # Ternary totalistic results │   └── q4_sample.npz              # Quaternary sample data ├── figures/ │   ├── phase_diagram.png           # Main phase transition diagram │   ├── histogram_protection.png    # Protection vs λ histogram │   └── ternary_valley.png         # Ternary valley structure └── notebooks/ └── reproduce_analysis.ipynb    # Step-by-step reproduction
-
